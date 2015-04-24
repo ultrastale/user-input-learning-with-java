@@ -1,0 +1,28 @@
+
+
+// will prompt the user to type in their name with keyboard.
+// When the enter key is pressed the line will move down and display the users name
+
+String name = readLine("Please enter your name: ");
+		println("Your name is " + name);
+
+// readDouble
+double [variable num] = readDouble("\nPlease input your num: ");
+println("Your num is: " +gpa);
+
+// is their entry valid?
+if (gpa >= 0.0 && gpa <= 4.0) {
+println("you entered the data correctly.");
+}
+else {
+println("You entered incorrectly.");
+}
+
+
+// readBoolean
+boolean [variable- usually ask question i.e isSomething] = readBoolean("\nAsk your true or false question");
+println("result of your ture/false input" + variableName );
+
+//readInt
+int [variable] = readInt("\n[enter stuff here]")
+println("write stuff here" + [variable]);
