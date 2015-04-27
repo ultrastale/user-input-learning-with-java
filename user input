@@ -26,3 +26,46 @@ println("result of your ture/false input" + variableName );
 //readInt
 int [variable] = readInt("\n[enter stuff here]")
 println("write stuff here" + [variable]);
+
+
+
+
+// material from class- just copied
+//declare gpa outside of while
+import java.awt.Font;
+import acm.program.ConsoleProgram;
+		double gpa = -1;
+		
+		
+		while (!(gpa >= 0.0 && gpa <= 4.0)) {
+			// readDouble
+			gpa = readDouble("\nPlease enter your GPA: ");
+			println("Your GPA is: " + gpa);
+		
+			// is their entry valid?
+			if (gpa >= 0.0 && gpa <= 4.0) {
+		
+				// readBoolean
+				boolean isChild = readBoolean("\nAre you a child (enter 'true' if yes, otherwise 'false'): ");
+		
+				if(isChild) {
+					println("You are a child.");
+				} else {
+					println("You are an adult.");
+				}
+			}
+		}
+		
+		
+		// readInt
+		int age = readInt("\nEnter your age (in years): ");
+		println("Your age " + age);
+		
+		
+		
+		
+	
+	}
+
+
+
